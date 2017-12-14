@@ -13,6 +13,10 @@ namespace NBD
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Login.logged_in == false)
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
     }
 }
