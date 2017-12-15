@@ -11,10 +11,12 @@ namespace NBD
 {
     public partial class Login : System.Web.UI.Page
     {
+        public static string error_message = "";
         public static bool logged_in = false;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (error_message != "")
+                lblError.Text = error_message;
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

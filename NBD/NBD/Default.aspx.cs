@@ -15,6 +15,7 @@ namespace NBD
         {
             if (Login.logged_in == false)
             {
+                Login.error_message = "You need to login first!";
                 Response.Redirect("Login.aspx");
             }
         }
