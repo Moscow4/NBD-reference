@@ -153,8 +153,43 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DesignBid.aspx.cs">
+      <DependentUpon>DesignBid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesignBid.aspx.designer.cs">
+      <DependentUpon>DesignBid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesignBudget.aspx.cs">
+      <DependentUpon>DesignBudget.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesignBudget.aspx.designer.cs">
+      <DependentUpon>DesignBudget.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesignerDWR.aspx.cs">
+      <DependentUpon>DesignerDWR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesignerDWR.aspx.designer.cs">
+      <DependentUpon>DesignerDWR.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Labour.aspx.cs">
+      <DependentUpon>Labour.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Labour.aspx.designer.cs">
+      <DependentUpon>Labour.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -164,17 +199,42 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Permissions.cs" />
+    <Compile Include="ProdDWR.aspx.cs">
+      <DependentUpon>ProdDWR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProdDWR.aspx.designer.cs">
+      <DependentUpon>ProdDWR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProdPlan.aspx.cs">
+      <DependentUpon>ProdPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProdPlan.aspx.designer.cs">
+      <DependentUpon>ProdPlan.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\NBD_SB.mdf" />
+    <Content Include="App_Data\NBD_SB_log.ldf">
+      <DependentUpon>NBD_SB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DesignBid.aspx" />
+    <Content Include="DesignBudget.aspx" />
+    <Content Include="DesignerDWR.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Inventory.aspx" />
+    <Content Include="Labour.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="ProdDWR.aspx" />
+    <Content Include="ProdPlan.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -208,7 +268,6 @@
     <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
